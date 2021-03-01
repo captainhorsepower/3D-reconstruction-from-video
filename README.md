@@ -9,8 +9,9 @@ Output
 
 - восстановленная 3D сцена. В идеале -- файл, открываемый в каком-либо 3D viewer-е.
 
-# Papers
+# References
 
-- Depth from Motion for Smartphone AR
-- DTAM: Dense Tracking and Mapping in Real-Time
-- Joint Projection Filling method for occlusion handling in Depth-Image-Based Rendering
+- [PDF] Depth from Motion for Smartphone AR
+- [PDF] DTAM: Dense Tracking and Mapping in Real-Time
+- [PDF] Joint Projection Filling method for occlusion handling in Depth-Image-Based Rendering
+- https://developers.google.com/ar/discover/concepts
