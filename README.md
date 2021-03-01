@@ -14,4 +14,5 @@ Output
 - [PDF] Depth from Motion for Smartphone AR
 - [PDF] DTAM: Dense Tracking and Mapping in Real-Time
 - [PDF] Joint Projection Filling method for occlusion handling in Depth-Image-Based Rendering
-- https://developers.google.com/ar/discover/concepts
+- [ARCore, Android] https://developers.google.com/ar/discover/concepts
+- [ARKit, iOS] https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration
