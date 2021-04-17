@@ -1,4 +1,4 @@
 [submodule "polar-rectification-cpp"]
 	path = polar_rectification/cpp-reference
 	url = git@github.com:captainhorsepower/PolarRectification.git
-	branch = main
+	branch = local-builds
