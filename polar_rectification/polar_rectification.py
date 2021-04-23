@@ -77,3 +77,34 @@ len(good_matches)
 # %%
 cv.remap?
 # %%
+
+class PolarRectification:
+
+
+    def __init__(self, img1, img2, F):
+        """Stuff for polar rectification of two images. Fundamental matrix must be computed before-hand"""
+
+        self.F = F
+
+
+    def compute(self):
+        """compute forward and reverse mappings based on provided fundamental matrix"""
+
+        epipoles = compute_epipoles()
+        
+        
+
+
+    def estimate_common_region():
+        pass
+
+    def compute_transformation_points():
+        pass
+
+    def build_remaps():
+        pass
+    
+
+
+
+# %%
