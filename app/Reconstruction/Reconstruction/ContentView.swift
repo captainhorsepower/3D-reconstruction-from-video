@@ -9,6 +9,7 @@ import SwiftUI
 import RealityKit
 import ARKit.ARSession
 
+
 struct ContentView : View {
     var body: some View {
         return ARViewContainer().edgesIgnoringSafeArea(.all)
@@ -20,12 +21,17 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         let arView = ARView(frame: .zero,
                             cameraMode: ARView.CameraMode.ar,
-                            automaticallyConfigureSession: true)
+                            automaticallyConfigureSession: false)
         
         arView.debugOptions.insert(.showWorldOrigin)
         arView.debugOptions.insert(.showStatistics)
         
-        arView.session.setValue(MyDelegate(), forKey: "delegate")
+        arView.session.run(ARWorldTrackingConfiguration())
+        arView.session.delegate = MyDelegate()
+        print(arView.session)
+
+        
+//        arView.session.run(<#T##configuration: ARConfiguration##ARConfiguration#>, options: <#T##ARSession.RunOptions#>)
 
 //        arView.session.delegate = MyDelegate()
         
