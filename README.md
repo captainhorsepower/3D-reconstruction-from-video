@@ -43,7 +43,17 @@ Output
 - [ARCore, Android] https://developers.google.com/ar/discover/concepts
 - [ARKit, iOS] https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration
 
+- [PDF] [Polar Rectificaiton](https://people.inf.ethz.ch/pomarc/pubs/PollefeysICCV99.pdf)
+
 ## Hmmmm
 
 - [ARCore Depth Lab](https://github.com/googlesamples/arcore-depth-lab)
     - [and a PDF](https://augmentedperception.github.io/depthlab/assets/Du_DepthLab-Real-Time3DInteractionWithDepthMapsForMobileAugmentedReality_UIST2020.pdf)
+
+- ICP: [jupyter notebook](https://nbviewer.jupyter.org/github/niosus/notebooks/blob/master/icp.ipynb), [2](https://arxiv.org/pdf/2007.07627.pdf), [source](https://www.cs.bu.edu/groups/ivc/exam/papers/besl.pdf)
+
+- AR Cam stuff: [1](https://stackoverflow.com/questions/46131762/arkit-why-is-the-cameras-viewmatrix-position-changing-when-the-device-is-rota),
+
+- opencv [1](https://stackoverflow.com/questions/18052337/how-to-verify-that-the-camera-calibration-is-correct-or-how-to-estimate-the-er), [2](https://stackoverflow.com/questions/33068051/how-alignregister-and-merge-point-clouds-to-get-full-3d-model), [3](https://docs.opencv.org/master/d3/d14/tutorial_ximgproc_disparity_filtering.html)
+
+- [stereo matching algs](https://vision.middlebury.edu/stereo/taxonomy-IJCV.pdf), [SGBM tuner](https://github.com/SebastinSanty/SGBMTuner), [SGM paper](https://core.ac.uk/download/pdf/11134866.pdf)
