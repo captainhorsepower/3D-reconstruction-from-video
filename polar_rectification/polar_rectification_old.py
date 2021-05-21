@@ -94,6 +94,12 @@ class PolarRectification:
         
         
 
+    def compute_epipoles(self):
+        """Find epipoles from fundamental matrix F"""
+        pass
+
+    
+
 
     def estimate_common_region():
         pass
@@ -107,4 +113,34 @@ class PolarRectification:
 
 
 
+# %%
+def get_extreme_points(epipole: tuple[float, float], image_size: tuple[int, int]):
+    """find image coreners closes to the epipole. They will give 
+    extreme epipolar lines, which will determine the common region. """
+
+    top_left = (0, 0)
+    top_right = (image_size[0] - 1, 0)
+    bot_left = (0, image_size[1] - 1)
+    bot_right = image_size - 1 # will work????
+
+    # epipole is above the image
+    if epipole[1] < 0: 
+        # in the top left corner
+        if epipole[0] < 0:
+            return top_right, bot_left
+        # above the image
+        elif epipole[0] < image_size[0] - 1:
+            return top_right, top_left
+        else:  # top right corner 
+            return bot_right, top_left
+
+    elif epipole[1] < image_size
+
+
+#%%
+img = cv.imread('input0.png')
+# %%
+img.shape
+# %%
+cv.imshow('hello', img)
 # %%
